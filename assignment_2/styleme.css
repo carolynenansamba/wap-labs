@@ -1,0 +1,39 @@
+/* styleme.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    color: black;
+    margin: 0;
+    padding: 26px;
+}
+
+h1, h2 {
+    font-family: " Verdana", sans-serif;
+    color: darkslategrey;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+ul, ol {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div {
+    margin-bottom: 20px;
+}
