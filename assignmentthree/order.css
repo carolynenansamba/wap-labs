@@ -1,0 +1,65 @@
+body{
+    background-color:rgb(234, 216, 224)
+}
+#container{
+    border:1px solid;
+}
+#tab1 {
+    margin-left: 5%;
+}
+#tab2 {
+    margin-left: 5%;
+}
+#header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+table,tr,td{
+    border: 1px solid;
+    width:50%
+      
+}
+.welcome{
+    border: 1px solid;
+   
+}
+table{
+    border-collapse: collapse;
+}
+.button {
+   
+    display: flex;
+    justify-content: flex-end;
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+}
+#header button{
+    font-weight: bold;
+    margin-right: 10%;
+    color: aliceblue;
+    height:40px;
+    width:80px;
+    background-color: rgb(85, 85, 187);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+span{
+    font-style: italic;
+    font-size: 200%;
+}
+button{
+    font-weight: bold;
+    background-color: navy;
+    color: aliceblue;
+}
+h4{
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5%;
+    color:navy;
+}
+#logo{
+    width:80px;
+}

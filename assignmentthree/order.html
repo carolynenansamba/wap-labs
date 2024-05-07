@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Lab3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="order.css" type="text/css" rel="stylesheet"/>
+   
+</head>
+<body>
+<div id="container">
+    <div id="header">    
+    <img id="logo" src="shopping.png" alt="logo"/>
+    <span>Welcome Carolyne!</span>
+    <button>Logout</button>
+    </div>
+    <hr/>
+    <h4>Product List</h4>
+    <table id="tab1">
+        <tr>
+            <td>Name</td>
+            <td>Price</td>
+            <td>Stock</td>
+            <td>Actions</td>
+        </tr>
+        <tr>
+            <td>Node.js</td>
+            <td>9.99</td>
+            <td>8</td>
+            <td><i class="fa-solid fa-cart-shopping"></i></td>
+        </tr>
+        <tr>
+            <td>React</td>
+            <td>19.99</td>
+            <td>5</td>
+            <td><i class="fa-solid fa-cart-shopping"></i></td>
+        </tr>
+        <tr>
+            <td>Angular</td>
+            <td>29.99</td>
+            <td>13</td>
+            <td><i class="fa-solid fa-cart-shopping"></i></td>
+        </tr>
+    </table>
+    <h4>My Shopping List</h4>
+    <table id="tab2">
+        <tr>
+            <td>Name</td>
+            <td>Price</td>
+            <td>Total</td>
+            <td>Quantity</td>
+        </tr>
+        <tr>
+            <td>Node.js</td>
+            <td>9.99</td>
+            <td>8</td>
+            <td> - <button> 0 </button> + </td>
+        </tr>
+        <tr>
+            <td>Angular</td>
+            <td>29.99</td>
+            <td>290.99</td>
+            <td> - <button>0  </button> + </td>
+        </tr>
+        <tr>
+            <td class="total" colspan="4" >Total: 300.98</td>
+        </tr>
+        
+    </table>
+    <div class="button">
+        <button>Place Order</button> 
+    </div>
+</div>   
+</body>
+</html>
