@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab4</title>
+    <link href="lab4.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+
+    <div class="workshop">
+        <span>Workshop Registration</span>
+        <select name="More Actions">
+            <option> Activity 1</option>
+            <option>Activity 2</option>
+            <option>Activity 2</option>
+            <option>Activity 2</option>
+            <option>Activity 2</option>
+        </select>
+    </div>
+
+   
+    <div id="main">
+        <div class="left">
+            <h4>Register now while seats are avaliable!</h4>
+
+            <div class="fname">
+                <label class="redstar"> First Name *</label>
+                <input type="text" name="First Name" size="20" autofocus/>
+            </div>
+
+            <div class="fname">
+                <label class="redstar">Last Name *</label>
+                <input type="text" name="Last Name" size="20" />
+            </div>
+
+            <div class="fname">
+                <label class="redstar"> Company Instituition * </label>
+                <input type="text" name="company" size="20" />
+            </div>
+
+            <div class="fname"><label> Address * </label>
+                <textarea rows="5" cols="21"></textarea>
+                <!-- <input id="address_textarea" type="text" name="address" size="20" /> -->
+            </div>
+
+            <div class="fname"><label> City </label>
+                <input type="text" name="city" size="20" />
+            </div>
+
+            <div class="fname"><label> Email * </label>
+                <input type="text" name="email" size="20" />
+            </div>
+
+            <div class="fname"><label> Phone Number *</label>
+                <input type="text" name="phonenumber" size="20" />
+            </div>
+
+            <div class="fname"><label>Country</label> <select class="select" name="Country">
+                    <option selected disabled>-Select-</option>
+                    <option> Uganda</option>
+                    <option>Kenya</option>
+                    <option>Rwanda</option>
+                    <option>Tanzania</option>
+                    <option>DRC</option>
+                </select>
+            </div>
+
+            <div class="fname"><label>State / Province / Region</label><select class="select"  name="State / Province / Region">
+                    <option selected disabled>-Select-</option>
+                    <option> Iowa</option>
+                    <option>Utah</option>
+                    <option>Califonia</option>
+                    <option>Las Vegas</option>
+                    <option>Virginia</option>
+                </select>
+            </div>
+        </div>
+        <div class="right">
+
+            <h4>Lunch</h4>
+            <div class="rightinput">
+                <label>Meals Preferences</label>
+                <select class="select" name="meals preference">
+                    <option selected disabled>-Select-</option>
+                    <option> matooke</option>
+                    <option>ugali</option>
+                    <option>cassava</option>
+                    <option>potatoes</option>
+                </select>
+            </div>
+
+            <h4>Payment Methods</h4>
+
+            <div class="rightinput">
+                <div> <label>Payment Mode</label></div>  
+                <div class="checkbox">
+                    <label> <input type="checkbox" name="lettuce" /> Cash</label> <br>
+                    <label> <input type="checkbox" name="tomato" /> Cheque </label> <br>
+                    <input type="checkbox" name="pickles" /> Demand Draft
+
+                </div>
+                    
+                
+            </div>
+
+            <div class="rightinput">
+                <label> DD/Cheque No.</label>
+                <input type="text" name="DD/Cheque No" size="20" />
+            </div>
+
+            <div class="rightinput">
+                <label> Drawn On (Bank Name)</label>
+                <input type="text" name="bank name" size="20" />
+            </div>
+
+            <div class="rightinput">
+                <label> Payable At</label>
+                <input type="text" name="payable at" size="20" />
+            </div>
+        </div>
+
+    </div>
+
+    <div class="submit">
+        <span>
+        <input class="subBtn" type="submit" value="Submit"/>
+        <input class="subBtn" type="reset" value="Reset"/>
+    </span>
+    </div>
+
+
+    <div>
+        <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fsmwemeke.github.io%2FWAP2023Nov%2FLab4%2Flab4.html">
+            <img src="checker.png" alt="html validator" width = 70/>
+            </a>
+            <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsmwemeke.github.io%2FWAP2023Nov%2FLab4%2Flab4.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img src="css_checker.png" alt="css validator" width = 70/>
+                </a>
+         </div>
+</div>
+
+</body>
+
+</html>
