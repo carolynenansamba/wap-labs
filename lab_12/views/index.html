@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Product</title>
+    <!--http://localhost:3000/abc-->
+    <!--app.use('/abc', express.static(path.join(__dirname, 'resources', 'css'))); -->
+    <link href="/abc/main.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <form action="/save" method="post">
+        <div>Title: <input name="title" ></div>
+        <div>Price: <input name="price" ></div>
+        <div>Description: <textarea name="description"></textarea></div>
+        <button>Add</button>
+    </form>
+</body>
+</html>
